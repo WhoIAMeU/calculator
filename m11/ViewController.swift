@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         },
                        completion: {Void in()})
         soundUrl = Sound(.yamete_kudasai)
-//        AudioServicesPlaySystemSound(1109)
+        AudioServicesPlaySystemSound(1109)
         switch sender.tag {
         case 1: addDigit("1")
         case 2: addDigit("2")
